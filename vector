@@ -1,0 +1,12 @@
+#include <iostream>
+#include <vector>
+#include <map> //important include file for using the vector container in stl
+using namespace std; //stl are defined in namespace std;
+int main(){
+vector <int> v = {1,45,3,54,35,64,53,46,75};//created a vector container of type int
+v.push_back(4);
+// provided some integer value to vector v
+for(int i:v)//using iterator for traversing the vector assigning the value inside v one by one to i and printing
+cout<<i<<' ';
+return 0;
+}
